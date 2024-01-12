@@ -1,0 +1,30 @@
+import java.util.*;
+class FirstClass
+{
+
+   public static void main(String args[]) 
+   
+   {
+    //string builder
+
+    StringBuilder sb = new StringBuilder("tony");
+    System.out.println(sb);
+    //insert
+    sb.insert(0,'S');
+    System.out.println(sb);
+
+    //delete
+    sb.delete(0,1);
+    System.out.println(sb);
+
+    //append
+    sb.append("h");
+    System.out.println(sb);
+
+   }
+}   
+   
+            
+
+                 
+
